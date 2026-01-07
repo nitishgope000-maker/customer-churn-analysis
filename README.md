@@ -1,7 +1,6 @@
 📊 Customer Churn Analysis – Python Project
 
 Author: Nitish Gope
-Role: Aspiring Data Analyst
 Tools Used: Python · Pandas · NumPy · Matplotlib · Seaborn
 Dataset: Telco Customer Churn (7,043 records)
 
