@@ -1,158 +1,40 @@
-📊 Customer Churn Analysis – Python Project
-
-Author: Nitish Gope
-Tools Used: Python · Pandas · NumPy · Matplotlib · Seaborn
+Customer Churn Analysis – Python
+Tools: Python, Pandas, NumPy, Matplotlib, Seaborn
 Dataset: Telco Customer Churn (7,043 records)
 
-🔍 Project Overview
+Project Overview
+Conducted an end-to-end customer churn analysis for a telecom dataset to identify churn drivers, high-risk customer segments, and actionable retention strategies using Python-based data analysis and visualization.
 
-This project analyzes customer churn for a telecom company using Python.
-The goal is to identify:
+Key Responsibilities & Work Performed
+Data Preparation
+Cleaned and preprocessed data using Pandas
+Converted data types (e.g., TotalCharges to numeric)
+Handled missing values and duplicates
+Prepared a structured dataset for analysis
 
-Which customers are most likely to churn
+Feature Engineering
+Created Contract Buckets (Short-, Mid-, and Long-Term)
+Developed Tenure Bands to segment customers by lifecycle stage
+Enhanced dataset to improve churn pattern analysis
 
-What factors influence churn
+Exploratory Data Analysis (EDA)
+Built 11 visualizations to analyze churn behavior
+Analyzed churn across tenure, contract type, monthly charges, gender, and senior citizen status
+Used boxplots and correlation heatmaps to identify key relationships
 
-How to improve customer retention
+Key Insights
+Contract type is the strongest churn driver: Month-to-month customers show the highest churn rate
+Early-stage customers churn more: Highest churn observed within the first 3 months
+Higher monthly charges increase churn risk
+~32% of churned customers were on month-to-month contracts with 0–3 months tenure, indicating early onboarding issues
 
-The analysis includes data cleaning, feature engineering, exploratory data analysis (EDA), visualization, and final insights with business recommendations.
-
-🧹 1. Data Cleaning & Preparation
-
-Steps performed:
-
-Loaded dataset into a Pandas DataFrame
-
-Converted TotalCharges from object → float
-
-Removed missing values
-
-Removed duplicate rows
-
-Standardized datatypes
-
-Prepared dataset for analysis
-
-🛠️ 2. Feature Engineering
-
-Created additional features to improve segmentation:
-
-🔹 ContractBucket
-
-Groups contract types:
-
-Short-Term (Month-to-month)
-
-Mid-Term (One year)
-
-Long-Term (Two year)
-
-🔹 TenureBand
-
-Created tenure ranges:
-
-0–3 months
-
-3–12 months
-
-12–24 months
-
-24–48 months
-
-48–72 months
-
-These engineered columns helped reveal important churn patterns.
-
-📈 3. Exploratory Data Analysis (EDA)
-
-Generated 11 visualizations including:
-
-Countplot of Churn
-
-Churn by Gender
-
-Churn by Senior Citizen
-
-MonthlyCharges distribution
-
-Tenure distribution
-
-Churn by Contract Type
-
-Churn by Contract Bucket
-
-Churn by Tenure Band
-
-Boxplots for MonthlyCharges and Tenure vs Churn
-
-Correlation heatmap
-
-Visualizations helped identify high-risk segments and churn trends.
-
-⭐ 4. Key Insights
-
-✔ 1. Contract type is the strongest churn factor
-
-Month-to-month customers churn significantly more than yearly or two-year customers.
-
-✔ 2. Early-tenure customers churn the most
-
-Customers with 0–3 months tenure have the highest churn rate.
-
-✔ 3. High monthly charges correlate with churn
-
-Customers paying higher MonthlyCharges tend to leave more often.
-
-✔ 4. Final important insight (as per analysis)
-
-Around 32% of churned customers were:
-
-On month-to-month contracts
-
-With 0–3 months tenure
-
-Indicating onboarding issues or dissatisfaction in the early stage.
-
-🎯 5. Recommendations
-
-Based on insights:
-
+Business Recommendations
 Improve onboarding experience for new customers
+Introduce early-tenure engagement and discount programs
+Promote upgrades from monthly to long-term contracts
+Review pricing strategies for high-charge segments
+Apply targeted retention campaigns using customer segmentation
 
-Offer early tenure incentives, discounts, or engagement campaigns
+Skills Demonstrated
 
-Encourage upgrades from monthly → yearly contracts
-
-Review pricing for high-charge customer segments
-
-Provide personalized retention offers using customer segmentation
-
-📁 Files in This Repository
-├── Customer_Churn_Analysis_Nitish.ipynb
-├── Telco_Customer_Churn.csv
-└── README.md
-
-🚀 How to Run the Project
-1. Install required libraries
-pip install pandas numpy matplotlib seaborn
-
-2. Open the Jupyter Notebook
-
-Use:
-
-Jupyter Notebook
-
-Google Colab
-
-VS Code
-
-3. Run all cells sequentially
-
-All steps are labeled clearly.
-
-🧑‍💻 About the Author
-
-Nitish Gope
-Aspiring Data Analyst
-Skilled in SQL, Python, Excel, Power BI
-Passionate about data insights and dashboard design.
+Python | Data Cleaning | Feature Engineering | EDA | Data Visualization | Business Insights
